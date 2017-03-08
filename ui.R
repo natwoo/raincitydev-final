@@ -17,13 +17,13 @@ ui <- fluidPage(
                      "10th Grade" = "tenth")),
       
       br(),
-      
-      checkboxInput("subject.check", "Test Subject:",
-                    c("Reading" = "reading",
-                      "Math" = "math",
-                      "Writing" = "writing",
-                      "Science" = "science")),
-      
+      # 
+      # checkboxInput("subject.check", "Test Subject:",
+      #               c("Reading" = "reading",
+      #                 "Math" = "math",
+      #                 "Writing" = "writing",
+      #                 "Science" = "science")),
+      # 
       br(),
       
       sliderInput("years.slider", "Years:",
@@ -37,7 +37,7 @@ ui <- fluidPage(
     mainPanel(
       # Create tabs
       tabsetPanel(type = "tabs",
-                  tabPanel("Map"),
+                  tabPanel("Map", plotOutput("map", hover = "plot_hover")),
                   tabPanel("Revenue vs. Test Score"),
                   tabPanel("Data Table"),
                   tabPanel("Aggregated Test Data")
