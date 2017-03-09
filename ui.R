@@ -41,7 +41,7 @@ ui <- fluidPage(
       tabsetPanel(type = "tabs",
                   tabPanel("Map"),
                   tabPanel("Revenue vs. Test Score"),
-                  tabPanel("Data Table", dataTableOutput('table')),
+                  tabPanel("Data Table", textOutput("intro"), dataTableOutput('table')),
                   tabPanel("Aggregated Test Data"),
                   tabPanel("About", textOutput('about'))
       )
