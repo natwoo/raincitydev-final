@@ -1,7 +1,9 @@
 library(shiny)
 
 revenue.data <- read.csv("data/washington_school_district_level_revenue.csv", stringsAsFactors = FALSE)
-districts <- revenue.data$district
+districts <- revenue.data$district %>% 
+  as.list() %>% 
+  setNames(revenue.data$district)
 
 ui <- fluidPage(
   #Title
@@ -14,14 +16,14 @@ ui <- fluidPage(
     # Sidebar
     sidebarPanel(
       radioButtons("grades.button", "Grade of Interest:",
-                   c("6th Grade" = "sixth", 
-                     "7th Grade" = "seventh", 
-                     "8th Grade" = "eighth", 
-                     "10th Grade" = "tenth")),
+                   c("6th Grade" = "6", 
+                     "7th Grade" = "7", 
+                     "8th Grade" = "8", 
+                     "10th Grade" = "10")),
       
       br(),
       
-      checkboxGroupInput("subject.check", "Test Subject:",
+      radioButtons("subject.check", "Test Subject:",
                     c("Reading" = "reading",
                       "Math" = "math",
                       "Writing" = "writing",
@@ -48,7 +50,7 @@ ui <- fluidPage(
                   tabPanel("Map"),
                   tabPanel("Revenue vs. Test Score"),
                   tabPanel("Data Table"),
-                  tabPanel("Aggregated Test Data")
+                  tabPanel("Aggregated Test Data", textOutput("textTest"), plotOutput("plot2"))
       )
     )
   )
