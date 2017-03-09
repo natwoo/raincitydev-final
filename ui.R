@@ -40,7 +40,8 @@ ui <- fluidPage(
                   min = 2010,
                   max = 2013,
                   value = 2013,
-                  step = 1)
+                  step = 1,
+                  sep = "")
     ),
     
     # Main panel
@@ -50,7 +51,7 @@ ui <- fluidPage(
                   tabPanel("Map"),
                   tabPanel("Revenue vs. Test Score"),
                   tabPanel("Data Table"),
-                  tabPanel("Aggregated Test Data", textOutput("textTest"), plotOutput("plot2"))
+                  tabPanel("Per District Test Proficiency Distribution", plotOutput("plot2"), br(), textOutput("plot2.description"))
       )
     )
   )

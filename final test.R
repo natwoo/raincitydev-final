@@ -1,4 +1,4 @@
-library(dply)
+library(dplyr)
 library(tidyr)
 library(ggplot2)
 
@@ -14,22 +14,24 @@ district.test.data <- filter(msp.hspe.data, District == "Aberdeen School Distric
          WritingPercentMetStandardExcludingNoScore,
          SciencePercentMetStandardExcludingNoScore
          ) %>% 
-  mutate(Grade = paste0(GradeTested, "th Grade")) %>% 
   gather(key = subject, value = percentage.reached.standard,
          ReadingPercentMetStandardExcludingNoScore,
          MathPercentMetStandardExcludingNoScore,
          WritingPercentMetStandardExcludingNoScore,
          SciencePercentMetStandardExcludingNoScore)
 
-district.test.data$Grade <- factor(district.test.data$Grade, levels = c("6th Grade", "7th Grade", "8th Grade", "10th Grade"))
-district.test.data$subject <- factor(district.test.data$subject, levels = c("ReadingPercentMetStandardExcludingNoScore",
-                                                                            "WritingPercentMetStandardExcludingNoScore",
-                                                                            "MathPercentMetStandardExcludingNoScore",
-                                                                            "SciencePercentMetStandardExcludingNoScore"))
+district.test.data$GradeTested <- paste0(district.test.data$GradeTested, "th Grade")
+district.test.data$subject <- gsub("PercentMetStandardExcludingNoScore", "", district.test.data$subject)
+
+district.test.data$GradeTested <- factor(district.test.data$GradeTested, levels = c("6th Grade", "7th Grade", "8th Grade", "10th Grade"))
+district.test.data$subject <- factor(district.test.data$subject, levels = c("Reading",
+                                                                            "Writing",
+                                                                            "Math",
+                                                                            "Science"))
 
 plot <- ggplot(data = district.test.data) +
-  geom_bar(mapping = aes(x = subject, y = percentage.reached.standard, fill = subject), stat = "identity") +
-  facet_wrap(~Grade) +
+  geom_bar(mapping = aes(x = subject, y = percentage.reached.standard, fill = subject), stat = "identity", na.rm = TRUE) +
+  facet_wrap(~GradeTested) +
   labs(title = "Distribution of Students Reaching Proficiency Standard on the MSP/HSPE", x = "Test Subject", y = "Percentage Met Standard") +
   scale_fill_discrete("Subject", labels = c("Reading", "Writing", "Math", "Science"))
 plot
