@@ -1,0 +1,621 @@
+
+<!doctype html public "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="content-type" content="text/html; charset=utf-8" /><meta http-equiv="content-language" content="en-us" /><meta name="robots" content="all,follow" /><title>
+	Office of Superintendent of Public Instruction
+</title><meta name="description" content="..." /><meta name="keywords" content="..." /><link href="../../Styles/global.css" rel="stylesheet" type="text/css" />
+    <script src="../../Scripts/JS/Commons/JavascriptFunctions.js" type="text/javascript"></script>   
+   
+<style type="text/css">
+	.menu_menu_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.menu_menu_1 { text-decoration:none; }
+	.menu_menu_2 {  }
+	.Menutagname1_datatablestree_0 { text-decoration:none; }
+	.Menutagname1_datatablestree_1 { border-style:none; }
+	.Menutagname1_datatablestree_2 {  }
+
+</style></head>
+<body id="MenuDistrictSnapshot">
+    <form name="form1" method="post" action="FinanceDTViewer.aspx" id="form1">
+<div>
+<input type="hidden" name="Menutagname1_datatablestree_ExpandState" id="Menutagname1_datatablestree_ExpandState" value="nnnnnnnnnnnnnnnnnnnnnn" />
+<input type="hidden" name="Menutagname1_datatablestree_SelectedNode" id="Menutagname1_datatablestree_SelectedNode" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="Menutagname1_datatablestree_PopulateLog" id="Menutagname1_datatablestree_PopulateLog" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyNjYyMzUyNTcPFgIeDlJlcG9ydF9EZXRhaWxzMpcaAAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABVTeXN0ZW0uRGF0YS5EYXRhVGFibGUDAAAAGURhdGFUYWJsZS5SZW1vdGluZ1ZlcnNpb24JWG1sU2NoZW1hC1htbERpZmZHcmFtAwEBDlN5c3RlbS5WZXJzaW9uAgAAAAkDAAAABgQAAACVDTw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/Pg0KPHhzOnNjaGVtYSB4bWxucz0iIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUxIj4NCiAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlJlcG9ydF9JZCIgdHlwZT0ieHM6aW50IiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVwb3J0X05hbWUiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlJlcG9ydF9EaXNwbGF5X05hbWUiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlJlcG9ydF9EZXNjcmlwdGlvbiIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU3ViamVjdF9BcmVhX0lkIiB0eXBlPSJ4czppbnQiIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJSZXBvcnRfVGl0bGUiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlJlcG9ydF9QYXRoIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJSZXBvcnRfUGF0aF9EaXN0cmljdCIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVwb3J0X1BhdGhfU2Nob29sIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTdWJqZWN0X0FyZWFfRGlzcGxheV9uYW1lIiB0eXBlPSJ4czppbnQiIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJDYXRlZ29yeV9OYW1lIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICA8L3hzOmVsZW1lbnQ+DQogIDx4czplbGVtZW50IG5hbWU9InRtcERhdGFTZXQiIG1zZGF0YTpJc0RhdGFTZXQ9InRydWUiIG1zZGF0YTpNYWluRGF0YVRhYmxlPSJUYWJsZTEiIG1zZGF0YTpVc2VDdXJyZW50TG9jYWxlPSJ0cnVlIj4NCiAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICA8eHM6Y2hvaWNlIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiIC8+DQogICAgPC94czpjb21wbGV4VHlwZT4NCiAgPC94czplbGVtZW50Pg0KPC94czpzY2hlbWE+BgUAAADVCjxkaWZmZ3I6ZGlmZmdyYW0geG1sbnM6bXNkYXRhPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOnhtbC1tc2RhdGEiIHhtbG5zOmRpZmZncj0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtZGlmZmdyYW0tdjEiPg0KICA8dG1wRGF0YVNldD4NCiAgICA8VGFibGUxIGRpZmZncjppZD0iVGFibGUxMSIgbXNkYXRhOnJvd09yZGVyPSIwIj4NCiAgICAgIDxSZXBvcnRfSWQ+MTA3MjwvUmVwb3J0X0lkPg0KICAgICAgPFJlcG9ydF9OYW1lPlRvdGFsIEFubnVhbCBHZW5lcmFsIEZ1bmQgRXhwZW5kaXR1cmVzIGJ5IENhdGVnb3J5PC9SZXBvcnRfTmFtZT4NCiAgICAgIDxSZXBvcnRfRGlzcGxheV9OYW1lPlRvdGFsIEFubnVhbCBHZW5lcmFsIEZ1bmQgRXhwZW5kaXR1cmVzIGJ5IENhdGVnb3J5PC9SZXBvcnRfRGlzcGxheV9OYW1lPg0KICAgICAgPFJlcG9ydF9EZXNjcmlwdGlvbj5SZXBvcnRzIGRvbGxhcnMgc3BlbnQgYnkgYSBzY2hvb2wgZGlzdHJpY3QgdGhhdCBhcmUgZGlyZWN0bHkgaW52b2x2ZWQgaW4gdGhlIGluc3RydWN0aW9uIGFuZCBlZHVjYXRpb24gb2Ygc3R1ZGVudHMuICBFeHBlbmRpdHVyZXMgYXJlIHJlcG9ydGVkIGJ5IGNhdGVnb3J5IGFzIHRvdGFsIGRvbGxhcnMgcGVyIHllYXIuICBDYXRlZ29yaWVzIGluY2x1ZGUgQmFzaWMgRWR1Y2F0aW9uLCBDb21tdW5pdHkgU2VydmljZSwgQ29tcGVuc2F0b3J5IEVkdWNhdGlvbiwgRGlzdHJpY3R3aWRlIFN1cHBvcnQsIEZlZGVyYWwgU3RpbXVsdXMsIE90aGVyIEluc3RydWN0aW9uYWwgUHJvZ3JhbXMsIFB1cGlsIFRyYW5zcG9ydGF0aW9uLCBTY2hvb2wgRm9vZCBTZXJ2aWNlcywgU3BlY2lhbCBFZHVjYXRpb24sIGFuZCBWb2NhdGlvbmFsL1NraWxscyBDZW50ZXIuICBSZXBvcnQgaXMgZHJpbGxhYmxlIGJ5IHN0YXRlLCBFU0QsIGFuZCBkaXN0cmljdC4gIDwvUmVwb3J0X0Rlc2NyaXB0aW9uPg0KICAgICAgPFN1YmplY3RfQXJlYV9JZD44PC9TdWJqZWN0X0FyZWFfSWQ+DQogICAgICA8UmVwb3J0X1RpdGxlPlRvdGFsIEFubnVhbCBHZW5lcmFsIEZ1bmQgRXhwZW5kaXR1cmVzIGJ5IENhdGVnb3J5PC9SZXBvcnRfVGl0bGU+DQogICAgICA8UmVwb3J0X1BhdGg+L1dBX1JlcG9ydHMvRmluYW5jZV9EVC9DYXRlZ29yeV9FeHBlbmRpdHVyZV9TdGF0ZTwvUmVwb3J0X1BhdGg+DQogICAgICA8UmVwb3J0X1BhdGhfRGlzdHJpY3Q+L1dBX1JlcG9ydHMvRmluYW5jZV9EVC9DYXRlZ29yeV9FeHBlbmRpdHVyZV9EaXN0cmljdDwvUmVwb3J0X1BhdGhfRGlzdHJpY3Q+DQogICAgICA8Q2F0ZWdvcnlfTmFtZT5HZW5lcmFsIEZ1bmQ8L0NhdGVnb3J5X05hbWU+DQogICAgPC9UYWJsZTE+DQogIDwvdG1wRGF0YVNldD4NCjwvZGlmZmdyOmRpZmZncmFtPgQDAAAADlN5c3RlbS5WZXJzaW9uBAAAAAZfTWFqb3IGX01pbm9yBl9CdWlsZAlfUmV2aXNpb24AAAAACAgICAIAAAAAAAAA//////////8LFgICAw9kFhACAw9kFgZmDxYCHgRocmVmBSd+L3dlYi9XYXNoaW5ndG9uV2ViL0hvbWUuYXNweD9hcHBpZD00NDhkAgEPFgIeB1Zpc2libGVoZAIDDxYCHgVjbGFzcwUHaGVhZGVyMRYEZg8WAh8CaBYCAgEPEA8WAh8CaGRkFgBkAgEPFgIfAmhkAgUPZBYCAgEQPCsADQEMFCsABgUTMDowLDA6MSwwOjIsMDozLDA6NBQrAAIWBh4EVGV4dAVdPHNwYW4gc3R5bGU9ImN1cnNvcjpoYW5kIiB0aXRsZT0iUmV0dXJuIHRvIHRoZSBlZEZ1c2lvbiBkYXRhIHdhcmVob3VzZSBob21lIHBhZ2UiPkhvbWU8L3NwYW4+HgVWYWx1ZQUDNDQ4HgdUb29sVGlwBS9SZXR1cm4gdG8gdGhlIGVkRnVzaW9uIGRhdGEgd2FyZWhvdXNlIGhvbWUgcGFnZWQUKwACFgYfBAVcPHNwYW4gc3R5bGU9ImN1cnNvcjpoYW5kIiB0aXRsZT0iVmlldyBxdWljayBmYWN0cyBieSBkaXN0cmljdCBhbmQgc2Nob29sIj5RdWljayBWaWV3czwvc3Bhbj4fBQUDNDQ5HwYFJ1ZpZXcgcXVpY2sgZmFjdHMgYnkgZGlzdHJpY3QgYW5kIHNjaG9vbGQUKwACFgYfBAVjPHNwYW4gc3R5bGU9ImN1cnNvcjpoYW5kIiB0aXRsZT0iVmlldyBkYXRhIHRhYmxlcyBieSBkaXN0cmljdCBhbmQgc2Nob29sIj48dT5EYXRhIFRhYmxlczwvdT48L3NwYW4+HwUFAzQ1MB8GBSdWaWV3IGRhdGEgdGFibGVzIGJ5IGRpc3RyaWN0IGFuZCBzY2hvb2xkFCsAAhYGHwQFbzxzcGFuIHN0eWxlPSJjdXJzb3I6aGFuZCIgdGl0bGU9IkNyZWF0ZSBjdXN0b20gZGF0YSB0YWJsZXMgYW5kIGRpdmUgZGVlcGVyIGludG8gdGhlIGRhdGEiPlJlcG9ydCBCdWlsZGVyPC9zcGFuPh8FBQM0NzgfBgU3Q3JlYXRlIGN1c3RvbSBkYXRhIHRhYmxlcyBhbmQgZGl2ZSBkZWVwZXIgaW50byB0aGUgZGF0YWQUKwACFgYfBAVqPHNwYW4gc3R5bGU9ImN1cnNvcjpoYW5kIiB0aXRsZT0iRG93bmxvYWQgYSBzZWxlY3Rpb24gb2YgcmVhZHkgdG8gdXNlIGRhdGEgZmlsZXMiPlN0YXRpYyBEYXRhIEZpbGVzPC9zcGFuPh8FBQM0NTEfBgUvRG93bmxvYWQgYSBzZWxlY3Rpb24gb2YgcmVhZHkgdG8gdXNlIGRhdGEgZmlsZXNkZGQCBw9kFgICBQ88KwAJAgAPFgYeDU5ldmVyRXhwYW5kZWRkHgxTZWxlY3RlZE5vZGVkHglMYXN0SW5kZXgCFmQIFCsAFwVjMDowLDA6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BAUyVG90YWwgQW5udWFsIEdlbmVyYWwgRnVuZCBFeHBlbmRpdHVyZXMgYnkgQ2F0ZWdvcnlkZAIRD2QWAmYPZBYCAgEPDxYCHwQFJ1llYXIocyk6IEFsbCBZZWFycyB8IERpc3RyaWN0KHMpOiBTdGF0ZWRkAhMPZBYCZg9kFgICAQ8PZBYCHgdPbkNsaWNrBTBDYWxsX1BvcFVwKGV2ZW50LCcuLi9HbG9zc2FyeS9MYW5kaW5nUGFnZS5hc3B4JylkAhsPFCsABA8WAh4OUmVuZGVyaW5nU3RhdGULKZUBTWljcm9zb2Z0LlJlcG9ydGluZy5XZWJGb3Jtcy5SZXBvcnRSZW5kZXJpbmdTdGF0ZSwgTWljcm9zb2Z0LlJlcG9ydFZpZXdlci5XZWJGb3JtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2ECZCgpWFN5c3RlbS5HdWlkLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkkNDk1Mzg5MzUtNjcxMi00ZWQ1LWEwOWItOTA3ZmNiMTY1MzIwAgEUKwABFCsAAgIBZBYGZg8UKwACZGcWDgIDD2QWAmYPDxYCHwQFA0FsbGRkAgUPZBYCZg8PFgIfBGVkZAIHD2QWAmYPDxYCHwQFBVRvdGFsZGQCCQ9kFgJmDw8WAh8EZWRkAgsPZBYCZg8PFgIfBAUDQWxsZGQCDQ9kFgJmDw8WAh8EBQNBbGxkZAIPD2QWAmYPDxYCHwQFATFkZAIBD2QWEGYPZBYEZg8PZBYCHgdvbmNsaWNrBTFDbGllbnRUb29sYmFyUmVwb3J0Vmlld2VyMV9jdGwwMS5PbkRvY01hcENsaWNrKCk7FgJmDw8WBh4FV2lkdGgbAAAAAAAAMEABAAAAHgZIZWlnaHQbAAAAAAAAMEABAAAAHgRfIVNCAoADFgIeBXN0eWxlBQxwYWRkaW5nOjJweDtkAgEPFgIfBQUFZmFsc2VkAgEPZBYKZg9kFgRmD2QWAmYPDxYGHxIbAAAAAAAAMEABAAAAHxMbAAAAAAAAMEABAAAAHxQCgAMWAh8VBQxwYWRkaW5nOjJweDtkAgEPZBYCZg8PFgYfEhsAAAAAAAAwQAEAAAAfExsAAAAAAAAwQAEAAAAfFAKAAxYCHxUFDHBhZGRpbmc6MnB4O2QCAQ9kFgRmD2QWAmYPDxYGHxIbAAAAAAAAMEABAAAAHxMbAAAAAAAAMEABAAAAHxQCgAMWAh8VBQxwYWRkaW5nOjJweDtkAgEPZBYCZg8PFgYfEhsAAAAAAAAwQAEAAAAfExsAAAAAAAAwQAEAAAAfFAKAAxYCHxUFDHBhZGRpbmc6MnB4O2QCAg8PFgQfBGUeB0VuYWJsZWRoFgIeCm9ua2V5cHJlc3MFvQFpZiAoZXZlbnQua2V5Q29kZSA9PSAxMCB8fCBldmVudC5rZXlDb2RlID09IDEzKSB7aWYgKCFDbGllbnRDb250cm9sbGVyUmVwb3J0Vmlld2VyMS5IYW5kbGVVc2VyVGV4dFBhZ2VDaGFuZ2UodGhpcy52YWx1ZSkpIHtfX2RvUG9zdEJhY2soJ1JlcG9ydFZpZXdlcjEkY3RsMDEkY3RsMDEkY3RsMDInLCcnKX0gcmV0dXJuIGZhbHNlO31kAgUPZBYEZg9kFgJmDw8WBh8SGwAAAAAAADBAAQAAAB8TGwAAAAAAADBAAQAAAB8UAoADFgIfFQUMcGFkZGluZzoycHg7ZAIBD2QWAmYPDxYGHxIbAAAAAAAAMEABAAAAHxMbAAAAAAAAMEABAAAAHxQCgAMWAh8VBQxwYWRkaW5nOjJweDtkAgYPZBYEZg9kFgJmDw8WBh8SGwAAAAAAADBAAQAAAB8TGwAAAAAAADBAAQAAAB8UAoADFgIfFQUMcGFkZGluZzoycHg7ZAIBD2QWAmYPDxYGHxIbAAAAAAAAMEABAAAAHxMbAAAAAAAAMEABAAAAHxQCgAMWAh8VBQxwYWRkaW5nOjJweDtkAgIPZBYCZg9kFgRmD2QWAmYPDxYGHxIbAAAAAAAAMEABAAAAHxMbAAAAAAAAMEABAAAAHxQCgAMWAh8VBQxwYWRkaW5nOjJweDtkAgEPZBYCZg8PFgYfEhsAAAAAAAAwQAEAAAAfExsAAAAAAAAwQAEAAAAfFAKAAxYCHxUFDHBhZGRpbmc6MnB4O2QCAw9kFgJmDxAPZBYEHghvbmNoYW5nZQVHQ2xpZW50VG9vbGJhclJlcG9ydFZpZXdlcjFfY3RsMDEuT25ab29tQ2hhbmdlZChldmVudC5zcmNFbGVtZW50LnZhbHVlKTseCGRpc2FibGVkBQhkaXNhYmxlZGQWAQIFZAIED2QWAmYPD2QWAh8XBXVpZiAoZXZlbnQua2V5Q29kZSA9PSAxMCB8fCBldmVudC5rZXlDb2RlID09IDEzKSB7Q2xpZW50Q29udHJvbGxlclJlcG9ydFZpZXdlcjEuSGFuZGxlQ2xpZW50U2lkZUZpbmQoKTsgcmV0dXJuIGZhbHNlO31kAgYPZBYCZg9kFgJmDw8WBh8SGwAAAAAAADBAAQAAAB8TGwAAAAAAADBAAQAAAB8UAoADFgIfFQUMcGFkZGluZzoycHg7ZAIHD2QWAmYPZBYEZg9kFgJmDw8WBh8SGwAAAAAAADBAAQAAAB8TGwAAAAAAADBAAQAAAB8UAoADFgIfFQUMcGFkZGluZzoycHg7ZAIBD2QWAmYPDxYGHxIbAAAAAAAAMEABAAAAHxMbAAAAAAAAMEABAAAAHxQCgAMWAh8VBQxwYWRkaW5nOjJweDtkAggPDxYCHwJoZGQCBg8WAh8FBQEwZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WFAUNSGVhZGVyMSR0b0VEUwUbTWVudXRhZ25hbWUxJGRhdGF0YWJsZXN0cmVlBQ5idG5kZWZpbml0aW9ucwUIaW1ncHJpbnQFDEltYWdlQnV0dG9uMgUMSW1hZ2VCdXR0b24xBSVSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAwJGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAxJGN0bDAwJGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAxJGN0bDAwJGN0bDAxJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAxJGN0bDAxJGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAxJGN0bDAxJGN0bDAxJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAxJGN0bDA1JGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAxJGN0bDA1JGN0bDAxJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAxJGN0bDA2JGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAxJGN0bDA2JGN0bDAxJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAyJGN0bDAwJGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDAyJGN0bDAwJGN0bDAxJGN0bDAwBSVSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDA2JGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDA3JGN0bDAwJGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDAxJGN0bDA3JGN0bDAwJGN0bDAxJGN0bDAwB44dvMQTYcoECKq6n9sPUZojz+U=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/PublicDWP/WebResource.axd?d=Giov1t-ETRV7yi_IbiUcDNgUVIG0obea2TMVNHjRzTuWeLMLsCBAgS4Qsw_CM-wZQRao5VRgbEVqyJ5i9b70lUQd3yg1&amp;t=635588336026805809" type="text/javascript"></script>
+
+
+<script src="/PublicDWP/WebResource.axd?d=f_Ie6QxPo4HL_b3gCY_TxSWaofOmpm8ZNaXoFT7keOX08Ma0_sgTGfS4f5nhiXuPJmi2KyW8AqapFfRXCRHI8Jwry71u2FWgKu6kTfv5F-m4CVQZTtJM8k513WMax2TAx_wOwA2&amp;t=634698506380000000" type="text/javascript"></script>
+<script src="/PublicDWP/WebResource.axd?d=hDf0AwVnVBZNEzl8-WWzZmx2Hbsa1YYdniw5i14btUEvkwEqH7p2LIaE9eflO4_zFiVykbQrzMmt66zSULpHYUosOGNVvwoLGCBTB8O7JHKZDGhRZm3zSH43b0sz2lK3HO6BCQ2&amp;t=634698506380000000" type="text/javascript"></script><link href="/PublicDWP/WebResource.axd?d=Ar7_agniD13v1o67jXOpkRrpWu86oNwc8PCvBjFEg8mv34Oh3kSS0bTAMkHyRYQX2Hbz4jSpOf3-jYk9lqlogmkJLyQU7m5uUXB3iAMjkAjpXQpS0&t=634698506380000000" type="text/css" rel="stylesheet"></link><link href="/PublicDWP/WebResource.axd?d=9KLvhlhGXgm48BewGRpCKBIJb-sRQ6dBnl8AXe_HKjRWktNoGtImGx8umU1CuRffTmr0iDwmQWwzHzd3qHxliMbc_64PlCWPk3_VrzR4AV2dS0iRW4Ju3W6rWPxDVntmoymqx3LGjXD6vw_X8d-tam9y5Ng1&t=634698506380000000" type="text/css" rel="stylesheet"></link>
+<script src="/PublicDWP/ScriptResource.axd?d=CpYmTSRZUj8eGmEiBpQabjNrYNvlp5HQflpPkHzFCUt77FNfnWzPJyB1V3v7dPFal4ArgFdnUSgARpdizY2HtzNAsT6GR2fTpKusHK4Re87WspkbrI-WHQbCslL3MW-ATqsLkw2&amp;t=5f861349" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+    function TreeView_PopulateNodeDoCallBack(context,param) {
+        WebForm_DoCallback(context.data.treeViewID,param,TreeView_ProcessNodeData,context,TreeView_ProcessNodeData,false);
+    }
+var Menutagname1_datatablestree_Data = null;//]]>
+</script>
+
+<script src="/PublicDWP/Reserved.ReportViewerWebControl.axd?OpType=Resource&amp;Version=8.0.50727.1826&amp;Name=Scripts.ReportViewer.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function ActionHandlerReportViewer1(actionType, actionParam) { SaveActionsForPostback('ReportViewer1_ctl04', 'ReportViewer1_ctl05', actionType, actionParam); __doPostBack('ReportViewer1',''); return false;}var ClientControllerReportViewer1 = new RSClientController(ActionHandlerReportViewer1, "ReportViewer1_ctl03", "ReportFrameReportViewer1", "/PublicDWP/Reserved.ReportViewerWebControl.axd?ReportSession=s2aw4oijklpd1jm1z4xgtqzx&ControlID=4953893567124ed5a09b907fcb165320&Culture=1033&UICulture=1033&ReportStack=1&OpType=DocMapArea&Controller=ClientControllerReportViewer1&RootLabel=Category_Expenditure_State&BackColor=White&Border=&Font=font-family%3aVerdana%3bfont-size%3a8pt%3b", "25%", false, "/PublicDWP/Reserved.ReportViewerWebControl.axd?ReportSession=s2aw4oijklpd1jm1z4xgtqzx&ControlID=4953893567124ed5a09b907fcb165320&Culture=1033&UICulture=1033&ReportStack=1&OpType=ReportArea&Controller=ClientControllerReportViewer1", true, true, true, true, true, true, "Enter a valid page number", "ReportViewer1_ctl06", true, "_top");
+function ClientImageToggleReportViewer1_ctl01_ctl01_ctl00(shouldEnable)
+{
+    var enableHover = document.getElementById("ReportViewer1_ctl01_ctl01_ctl00_ctl00");
+    var disableHover = document.getElementById("ReportViewer1_ctl01_ctl01_ctl00_ctl01");
+    if (enableHover == null || disableHover == null)
+        return;
+    if (shouldEnable)
+    {
+        enableHover.style.display = "";
+        disableHover.style.display = "none";
+    }
+    else
+    {
+        disableHover.style.display = "";
+        enableHover.style.display = "none";
+    }
+}function ClientImageToggleReportViewer1_ctl01_ctl01_ctl01(shouldEnable)
+{
+    var enableHover = document.getElementById("ReportViewer1_ctl01_ctl01_ctl01_ctl00");
+    var disableHover = document.getElementById("ReportViewer1_ctl01_ctl01_ctl01_ctl01");
+    if (enableHover == null || disableHover == null)
+        return;
+    if (shouldEnable)
+    {
+        enableHover.style.display = "";
+        disableHover.style.display = "none";
+    }
+    else
+    {
+        disableHover.style.display = "";
+        enableHover.style.display = "none";
+    }
+}function ClientImageToggleReportViewer1_ctl01_ctl01_ctl05(shouldEnable)
+{
+    var enableHover = document.getElementById("ReportViewer1_ctl01_ctl01_ctl05_ctl00");
+    var disableHover = document.getElementById("ReportViewer1_ctl01_ctl01_ctl05_ctl01");
+    if (enableHover == null || disableHover == null)
+        return;
+    if (shouldEnable)
+    {
+        enableHover.style.display = "";
+        disableHover.style.display = "none";
+    }
+    else
+    {
+        disableHover.style.display = "";
+        enableHover.style.display = "none";
+    }
+}function ClientImageToggleReportViewer1_ctl01_ctl01_ctl06(shouldEnable)
+{
+    var enableHover = document.getElementById("ReportViewer1_ctl01_ctl01_ctl06_ctl00");
+    var disableHover = document.getElementById("ReportViewer1_ctl01_ctl01_ctl06_ctl01");
+    if (enableHover == null || disableHover == null)
+        return;
+    if (shouldEnable)
+    {
+        enableHover.style.display = "";
+        disableHover.style.display = "none";
+    }
+    else
+    {
+        disableHover.style.display = "";
+        enableHover.style.display = "none";
+    }
+}function ClientImageToggleReportViewer1_ctl01_ctl02_ctl00(shouldEnable)
+{
+    var enableHover = document.getElementById("ReportViewer1_ctl01_ctl02_ctl00_ctl00");
+    var disableHover = document.getElementById("ReportViewer1_ctl01_ctl02_ctl00_ctl01");
+    if (enableHover == null || disableHover == null)
+        return;
+    if (shouldEnable)
+    {
+        enableHover.style.display = "";
+        disableHover.style.display = "none";
+    }
+    else
+    {
+        disableHover.style.display = "";
+        enableHover.style.display = "none";
+    }
+}function ClientImageToggleReportViewer1_ctl01_ctl07_ctl00(shouldEnable)
+{
+    var enableHover = document.getElementById("ReportViewer1_ctl01_ctl07_ctl00_ctl00");
+    var disableHover = document.getElementById("ReportViewer1_ctl01_ctl07_ctl00_ctl01");
+    if (enableHover == null || disableHover == null)
+        return;
+    if (shouldEnable)
+    {
+        enableHover.style.display = "";
+        disableHover.style.display = "none";
+    }
+    else
+    {
+        disableHover.style.display = "";
+        enableHover.style.display = "none";
+    }
+}//]]>
+</script>
+
+<script src="/PublicDWP/ScriptResource.axd?d=r6iKCOl5X6AQeCi1QcyycJWsiauTYxwIOeAjC7YuV527p8D0W6_Y-syc0it7CeX5FEDs3fkQBU99wst5o6Yd1g1ijv3Tsv7X4BVrUJgGt6kyhwuMK_XIx9qDDiNQSEoNyhI0QjRCgTyuzrYDdNfR74kb-eo1&amp;t=2e2045e2" type="text/javascript"></script>
+<script src="/PublicDWP/ScriptResource.axd?d=87wf0sqCs29nj2Yl04hCsttJD8LBCXxqwgl-87Iz8gfwY6AA4h1piZ_sjarBqbSI9nHXuAM2hi93-ebnwBRT2qhEnBVvbCW30rhbBWmZYsXLJX_jOlPFiPRNWSTijljdqGhyzBG86msSTwmtK4pxwnr1WHgn9SG9mrUCBU8dnz6YTrlU0&amp;t=2e2045e2" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="07AD9ADE" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', document.getElementById('form1'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tUpdatePanel1','tUpdatePanel2','tupdpnlDefLink'], [], [], 90);
+//]]>
+</script>
+
+    <div class="wrapper">
+        <!-- Main -->
+        <div id="main" class="box">
+            <!-- Header -->
+            
+<div class="header">
+    <script type="text/javascript" language='javascript'>
+        //        function SessionTimeOuts() {
+        //            self.setTimeout("RedirectToLogin();", 320000);
+        //        }
+
+        function RedirectToLogin() {
+            alert('Your session has expired.');
+            var Logout = 'http://data.k12.wa.us/PublicDWP/'
+            window.location.href = Logout;
+            //window.location.href = 'http://wa.edfusion.com/PublicDWP/'
+            //any page where you want the redirection
+        }
+
+    </script>
+    <script language="javascript" type="text/javascript">
+        function CallHelpPage() {
+            var pageurl = 'https://data.k12.wa.us/help/help.htm'
+            window.open(pageurl, "mywindow", "location=0,status=0,scrollbars=1,resizable=yes", "_blank");
+        }            
+    </script>
+    <div class="logo_link">
+        
+        <a href="../Home.aspx?appid=448" id="Header1_lnkhome"></a>
+    </div>
+    
+    <div id="Header1_publicedsdiv" class="eds-logo">
+        <input type="image" name="Header1$toEDS" id="Header1_toEDS" title="Login to see secure data using your EDS login" src="../../Images/logo_eds.png" style="border-width:0px;" />
+        <span id="Header1_spnPubHelp" style="font: bold 14px verdana; color: #ffffff; position: relative; top: 47px;
+            text-align: right; text-decoration: none;"><a title="Help" href="javascript:CallHelpPage('HELP')"
+                style="color: #ffffff; text-decoration: none; width: 50px;">Help</a></span>
+    </div>
+    <div id="Header1_divHeader" class="header1">
+        <div>
+        </div>
+        
+        <div class="welcome_note" style="padding: 0 5px 0 0">
+            
+        </div>
+        <script type="text/javascript">
+            function ValidateLogin() {
+
+                var User_ID = document.getElementById('Header1_txt_userid');
+                // alert(User_ID.value);
+                var Pwd = document.getElementById('Header1_txt_pwd');
+                if (User_ID.value == "" || Pwd.value == "") {
+                    var msg = document.getElementById('Header1_lblErrorMsg');
+
+                    msg.innerHTML = "The username and password combination do not match. <br/>Your username is an email address and the password is case-sensitive.";
+
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            }
+
+    
+        </script>
+    </div>
+</div>
+
+            
+<div class="top-menu-back">
+   
+      
+<div class="AspNet-Menu-Horizontal" id="menu_menu">
+		<ul class="AspNet-Menu">
+			<li class="AspNet-Menu-Leaf">
+				<a href="javascript:__doPostBack('menu$menu','b448')" class="AspNet-Menu-Link" title="Return to the edFusion data warehouse home page">
+					<span style="cursor:hand" title="Return to the edFusion data warehouse home page">Home</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="javascript:__doPostBack('menu$menu','b449')" class="AspNet-Menu-Link" title="View quick facts by district and school">
+					<span style="cursor:hand" title="View quick facts by district and school">Quick Views</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="javascript:__doPostBack('menu$menu','b450')" class="AspNet-Menu-Link" title="View data tables by district and school">
+					<span style="cursor:hand" title="View data tables by district and school"><u>Data Tables</u></span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="javascript:__doPostBack('menu$menu','b478')" class="AspNet-Menu-Link" title="Create custom data tables and dive deeper into the data">
+					<span style="cursor:hand" title="Create custom data tables and dive deeper into the data">Report Builder</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="javascript:__doPostBack('menu$menu','b451')" class="AspNet-Menu-Link" title="Download a selection of ready to use data files">
+					<span style="cursor:hand" title="Download a selection of ready to use data files">Static Data Files</span></a>
+			</li>
+		</ul>
+
+</div>
+</div>
+
+            <!-- /header -->
+            <!-- Main menu (tabs) -->
+            <!-- /tabs -->
+            <!-- Page (2 columns) -->
+            <div id="page" class="box">
+                <div id="page-in" class="box">
+                    <!-- Main Column starts here -->
+                    <div id="main_column">
+                        <!-- left column -->
+                        
+                        <!-- /col -->
+                        <!--  Left col ends -->
+                        <table cellpadding="0" cellspacing="0" align="left">
+                            <tr>
+                                <td valign="top">
+                                <div id="colDT" class="noprint">
+                            <div id="col-inDT">
+                                <div>
+                                    <div class="leftcolDT">
+                                        
+<table cellpadding="0" cellspacing="0" style="border-right:#D7D7D7 1px solid;height:100%; width:100% ; vertical-align:top" >
+  <tr>
+                            <td class="labelbg" style="vertical-align:top">   
+                                <input name="Menutagname1$scroll" type="hidden" id="Menutagname1_scroll" />                             
+                                <span id="Menutagname1_lblOrgName" class="labelcolor">Select Report</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left:10px;padding-right:3px; margin:-10px;">
+                                
+                                  <a href="#Menutagname1_datatablestree_SkipLink"><img alt="Skip Navigation Links." src="/PublicDWP/WebResource.axd?d=wcaEpuX25pYyEu0eW6tEoSxUJIMRmgQsrvhxfBPo9xU_KnsPTmOrYjbIrsmcgoE1iiMqQRZC9wQoGUuKOnl3-ecGIXE1&amp;t=635588336026805809" width="0" height="0" style="border-width:0px;" /></a><div id="Menutagname1_datatablestree" class="VertTop" style="height:505px;width:95%;">
+	<table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s22')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen0');" title="CAA/CIA" id="Menutagname1_datatablestreen0" style="border-style:none;font-size:1em;">CAA/CIA</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s23')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen1');" title="Collection of Evidence(COE)" id="Menutagname1_datatablestreen1" style="border-style:none;font-size:1em;">Collection of Evidence(COE)</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s28')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen2');" title="Course Catalog" id="Menutagname1_datatablestreen2" style="border-style:none;font-size:1em;">Course Catalog</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s20')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen3');" title="Directory" id="Menutagname1_datatablestreen3" style="border-style:none;font-size:1em;">Directory</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s4')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen4');" title="Discipline " id="Menutagname1_datatablestreen4" style="border-style:none;font-size:1em;">Discipline </a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s5')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen5');" title="Dropout" id="Menutagname1_datatablestreen5" style="border-style:none;font-size:1em;">Dropout</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s27')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen6');" title="End of Course(EOC)" id="Menutagname1_datatablestreen6" style="border-style:none;font-size:1em;">End of Course(EOC)</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s6')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen7');" title="English Language Learners" id="Menutagname1_datatablestreen7" style="border-style:none;font-size:1em;">English Language Learners</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s7')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen8');" title="Enrollment " id="Menutagname1_datatablestreen8" style="border-style:none;font-size:1em;">Enrollment </a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s8')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen9');" title="Finance" id="Menutagname1_datatablestreen9" style="border-style:none;font-size:1em;"><b><u>Finance</u></b></a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s32')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen10');" title="Grade History" id="Menutagname1_datatablestreen10" style="border-style:none;font-size:1em;">Grade History</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s9')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen11');" title="Graduation " id="Menutagname1_datatablestreen11" style="border-style:none;font-size:1em;">Graduation </a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s10')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen12');" title="Instructional Time" id="Menutagname1_datatablestreen12" style="border-style:none;font-size:1em;">Instructional Time</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s24')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen13');" title="MSP/HSPE/WASL" id="Menutagname1_datatablestreen13" style="border-style:none;font-size:1em;">MSP/HSPE/WASL</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s16')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen14');" title="Special Education" id="Menutagname1_datatablestreen14" style="border-style:none;font-size:1em;">Special Education</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s17')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen15');" title="Staff" id="Menutagname1_datatablestreen15" style="border-style:none;font-size:1em;">Staff</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s18')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen16');" title="Student Attendance" id="Menutagname1_datatablestreen16" style="border-style:none;font-size:1em;">Student Attendance</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s19')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen17');" title="Student Need" id="Menutagname1_datatablestreen17" style="border-style:none;font-size:1em;">Student Need</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s29')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen18');" title="Student Schedule" id="Menutagname1_datatablestreen18" style="border-style:none;font-size:1em;">Student Schedule</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s26')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen19');" title="WAAS-DAPE/DAWL" id="Menutagname1_datatablestreen19" style="border-style:none;font-size:1em;">WAAS-DAPE/DAWL</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s25')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen20');" title="WAAS-Portfolio" id="Menutagname1_datatablestreen20" style="border-style:none;font-size:1em;">WAAS-Portfolio</a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td class="verysmalltxt Menutagname1_datatablestree_2" style="white-space:nowrap;"><a class="Menutagname1_datatablestree_0 verysmalltxt Menutagname1_datatablestree_1" href="javascript:__doPostBack('Menutagname1$datatablestree','s31')" onclick="TreeView_SelectNode(Menutagname1_datatablestree_Data, this,'Menutagname1_datatablestreen21');" title="WLPT/WELPA" id="Menutagname1_datatablestreen21" style="border-style:none;font-size:1em;">WLPT/WELPA</a></td>
+		</tr>
+	</table>
+</div><a id="Menutagname1_datatablestree_SkipLink"></a>
+                               
+                            </td>
+                        </tr>
+</table>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /col-in -->
+                        </div>
+                                </td>
+                                <td valign="top" >
+                                    <div id="contentDT" >
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td style="padding-left: 0px;">
+                                                    
+                                                </td>
+                                            </tr>
+                                          <tr>
+                                                <td class="RowMTSpace">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align ="left" >
+
+                                                    <div id="UpdatePanel1">
+	
+                                                            <table class="TableWidth" cellpadding="0" cellspacing="0">
+                                                                <tr>
+                                                                    <td class="align_top Padbot">
+                                                                         
+                                                                        <select name="drpyear" onchange="javascript:setTimeout('__doPostBack(\'drpyear\',\'\')', 0)" id="drpyear" style="font-size:12px;width:100px;">
+		<option selected="selected" value="Select a Year" title="Select a Year">Select a Year</option>
+		<option value="2013" title="2012-13">2012-13</option>
+		<option value="2012" title="2011-12">2011-12</option>
+		<option value="2011" title="2010-11">2010-11</option>
+		<option value="2010" title="2009-10">2009-10</option>
+		<option value="2009" title="2008-09">2008-09</option>
+		<option value="2008" title="2007-08">2007-08</option>
+		<option value="2007" title="2006-07">2006-07</option>
+		<option value="2006" title="2005-06">2005-06</option>
+		<option value="2005" title="2004-05">2004-05</option>
+
+	</select>
+                                                                         <select name="drpesd" onchange="javascript:setTimeout('__doPostBack(\'drpesd\',\'\')', 0)" id="drpesd" style="font-size:12px;width:210px;">
+		<option selected="selected" value="Select an ESD" title="Select an ESD">Select an ESD</option>
+
+	</select>
+                                                                        <select name="drpdist" onchange="javascript:setTimeout('__doPostBack(\'drpdist\',\'\')', 0)" id="drpdist" style="font-size:12px;width:215px;">
+		<option selected="selected" value="Select a District" title="Select a District">Select a District</option>
+
+	</select>
+
+                                                                        
+                                                                       
+                                                                    </td>
+                                                                </tr>
+                                                                <tr><td> 
+                                                               
+                                                                 </td></tr>
+                                                            </table>
+                                                        
+</div>
+                                                    <table class="TableWidth" cellpadding="0" cellspacing="0">
+                                                        <tr class="yellowbg3">
+                                                            <td class="padlefttop">
+                                                                Report Name
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="SmallText gap">
+                                                                <span id="lblCategoryname">Finance - </span>
+                                                                <span id="lblreportname">Total Annual General Fund Expenditures by Category</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="yellowbg3">
+                                                            <td class="padlefttop">
+                                                                Report Criteria
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="gaprc SmallText">
+
+                                                                <div id="UpdatePanel2">
+	
+                                                                        <span id="lblchoosencriteria">Year(s): All Years | District(s): State</span>
+                                                                    
+</div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: right; border-top: #c1c1c1 1px solid">
+                                                <span id="updpnlDefLink">
+                                                    <input type="image" name="btndefinitions" id="btndefinitions" title="Definitions" src="../../Images/def_icon.gif" onclick="Call_PopUp(event,'../Glossary/LandingPage.aspx');" style="border-width:0px;" />
+                                                        </span>
+                                                    <input type="image" name="imgprint" id="imgprint" title="Export/Print to Excel" src="../../Images/excel_icon.gif" style="border-width:0px;" />
+                                                    <input type="image" name="ImageButton2" id="ImageButton2" title="Export/Print to PDF" src="../../Images/pdf_icon.gif" style="border-width:0px;" />
+                                                    <input type="image" name="ImageButton1" id="ImageButton1" title="Export/Print to CSV" src="../../Images/csv_icon_sm.gif" style="border-width:0px;" />
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <div  style="overflow: hidden; width:740px; padding-left:0px; position:relative">                                           
+                                                <table cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td>
+                                                              <div id="ReportViewer1" style="display:inline-block;border-color:Silver;height:360px;width:726px;">
+	<input type="hidden" name="ReportViewer1$ctl04" id="ReportViewer1_ctl04" /><input type="hidden" name="ReportViewer1$ctl05" id="ReportViewer1_ctl05" /><input type="hidden" name="ReportViewer1$ctl06" id="ReportViewer1_ctl06" value="0" /><noscript>
+		&nbsp;Your browser does not support scripts or has been configured not to allow scripts.
+	</noscript><iframe src="/PublicDWP/Reserved.ReportViewerWebControl.axd?OpType=DocMapReport&amp;ClientController=ClientControllerReportViewer1&amp;ReportUrl=%2fPublicDWP%2fReserved.ReportViewerWebControl.axd%3fReportSession%3ds2aw4oijklpd1jm1z4xgtqzx%26ControlID%3d4953893567124ed5a09b907fcb165320%26Culture%3d1033%26UICulture%3d1033%26ReportStack%3d1%26OpType%3dReportArea%26Controller%3dClientControllerReportViewer1%26PageNumber%3d1%26ZoomMode%3dPercent%26ZoomPct%3d100%26ReloadDocMap%3dtrue%26SearchStartPage%3d0%26LinkTarget%3d_top" frameborder="0" id="ReportFrameReportViewer1" name="ReportFrameReportViewer1" style="width:100%;height:100%;display:inline;">
+
+	</iframe>
+</div><iframe name="ReportViewer1TouchSession0" id="ReportViewer1TouchSession0" onload="if (frames['ReportViewer1TouchSession0'].location != 'javascript:\'\'') frames['ReportViewer1TouchSession0'].location.replace('javascript:\'\'');" src="javascript:''" style="position:absolute;width:0;height:0;visibility:hidden;">
+
+</iframe><script type="text/javascript">
+	setTimeout("frames['ReportViewer1TouchSession0'].location.replace('/PublicDWP/Reserved.ReportViewerWebControl.axd?ReportSession=s2aw4oijklpd1jm1z4xgtqzx&ControlID=4953893567124ed5a09b907fcb165320&Culture=1033&UICulture=1033&ReportStack=1&OpType=SessionKeepAlive&TimerMethod=KeepAliveMethodReportViewer1TouchSession0&CacheSeed=' + encodeURIComponent(Date()));", 0);function KeepAliveMethodReportViewer1TouchSession0() {setTimeout("frames['ReportViewer1TouchSession0'].location.replace('/PublicDWP/Reserved.ReportViewerWebControl.axd?ReportSession=s2aw4oijklpd1jm1z4xgtqzx&ControlID=4953893567124ed5a09b907fcb165320&Culture=1033&UICulture=1033&ReportStack=1&OpType=SessionKeepAlive&TimerMethod=KeepAliveMethodReportViewer1TouchSession0&CacheSeed=' + encodeURIComponent(Date()));", 539000);}
+</script><script type="text/javascript">
+	ClientControllerReportViewer1.ShowInitialWaitFrame();
+
+</script>
+                                                        </td>
+                                                    </tr>
+                                                </table>                                           
+                                         </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- Content -->
+                        <!-- /content -->
+                    </div>
+                    <!-- /page-in -->
+                </div>
+                <!-- /page -->
+                <!-- Footer -->
+                
+<head>
+    <script language="javascript" type="text/javascript">
+        function CallHelpPage(Type) {
+            var pageurl = "";
+            if (Type == "HELP")
+                pageurl = 'https://data.k12.wa.us/help/help.htm'
+            else
+                pageurl = 'https://data.k12.wa.us/contact/contact.aspx'
+            window.open(pageurl, "mywindow", "location=0,status=0,scrollbars=1,resizable=yes", "_blank");
+            false;
+        }            
+    </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36443274-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<div id="pagefooter" class="clearfix">
+    <div class="footer_style">
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse"
+            width="100%" id="AutoNumber8">
+            <tr>
+                <td width="100%">
+                    <p align="center">
+                        <font color="#FFFFFF" face="Verdana" size="1">Old Capitol Building, PO Box 47200, 600
+                            Washington St. S.E., Olympia, WA&nbsp; 98504-7200</font><font color="#FFFFFF">&nbsp;
+                            </font><br>
+                        <font color="#FFFFFF"><a class="footer" title="OSPI Home" href="http://www.k12.wa.us">
+                            <span style="color: #d8e5fe;">OSPI Home</span></a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a class="footer" title="Help" href="javascript:CallHelpPage('HELP')"><span style="color: #d8e5fe;">
+                                Help</span></a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a class="footer"
+                                    title="Contact Us" href="javascript:CallHelpPage('CONTANT')"><span style="color: #d8e5fe;">
+                                        Contact Us</span></a> </font>
+                        <br />
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+            </div>
+        </div>
+        </div>
+        
+    
+<script type="text/javascript">
+//<![CDATA[
+var Menutagname1_datatablestree_ImageArray =  new Array('', '', '', '/PublicDWP/WebResource.axd?d=05NQaZ9WaIlXTb_1HC_93ydLTdjuWGMCpP7_E2SGWpfwH7nx94XWEnADjUvcJg5M7YvWHUSIpfAWi0M0FujbgUH9nAhCXClwHy2mq1C_renZV8rw0&t=635588336026805809', '/PublicDWP/WebResource.axd?d=TbsOtijl6JQks8C92vaDD64-XzT4ujEzmQ-CYmJICbvc4E02ymNyN7asXWLVOJBIBlNHsM1JGgyvAzyBK9w5ax2HbFbIiAC1jKFPJx3cc2lrINJQ0&t=635588336026805809', '/PublicDWP/WebResource.axd?d=goDdHrMwFDMO04RE9L9n-A9xYCDPSlR7vYq76i_Ixu2OJ9dWEnh1QOiXuaf778HKTAIHe8pqHvZRtyoaqiLId5O_keAePtzT6v6AwRq_FJ9tr1IU0&t=635588336026805809');
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+WebForm_InitCallback();var Menutagname1_datatablestree_Data = new Object();
+Menutagname1_datatablestree_Data.images = Menutagname1_datatablestree_ImageArray;
+Menutagname1_datatablestree_Data.collapseToolTip = "Collapse {0}";
+Menutagname1_datatablestree_Data.expandToolTip = "Expand {0}";
+Menutagname1_datatablestree_Data.expandState = theForm.elements['Menutagname1_datatablestree_ExpandState'];
+Menutagname1_datatablestree_Data.selectedNodeID = theForm.elements['Menutagname1_datatablestree_SelectedNode'];
+for (var i=0;i<6;i++) {
+var preLoad = new Image();
+if (Menutagname1_datatablestree_ImageArray[i].length > 0)
+preLoad.src = Menutagname1_datatablestree_ImageArray[i];
+}
+Menutagname1_datatablestree_Data.lastIndex = 22;
+Menutagname1_datatablestree_Data.populateLog = theForm.elements['Menutagname1_datatablestree_PopulateLog'];
+Menutagname1_datatablestree_Data.treeViewID = 'Menutagname1$datatablestree';
+Menutagname1_datatablestree_Data.name = 'Menutagname1_datatablestree_Data';
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
+</html>
