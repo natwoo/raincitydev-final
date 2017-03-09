@@ -5,6 +5,8 @@ library(rgdal)
 library(maps)
 library(leaflet)
 library(tidyr)
+library(htmltools)
+library(htmlwidgets)
 
 revenue.data <- read.csv("data/washington_school_district_level_revenue.csv", stringsAsFactors = FALSE)
 msp.hspe.data <- read.csv("data/2010_to_2013_MSP_HSPE_Scores_by_District.csv", stringsAsFactors = FALSE)
@@ -29,7 +31,14 @@ server <- function(input, output) {
     pal <- colorNumeric(palette = "Blues", domain = school.district.shapefile@data$total.revenue.per.pupil)
     
     map <- leaflet(map.data()) %>% 
-      addTiles()
+      addTiles() %>%
+      addEasyButton(easyButton(
+        icon="fa-globe", title="Zoom to Level 1",
+        onClick=JS("function(btn, map){ map.setZoom(1); }"))) %>%
+      addEasyButton(easyButton(
+        icon="fa-crosshairs", title="Locate Me",
+        onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
+    
     map <- map %>%
       addPolygons(weight = 1,
                   fillColor = ~pal(total.revenue.per.pupil),
