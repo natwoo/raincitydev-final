@@ -12,19 +12,19 @@ ui <- fluidPage(
     # Sidebar
     sidebarPanel(
       radioButtons("grades.button", "Grade of Interest:",
-                   c("6th Grade" = "sixth", 
-                     "7th Grade" = "seventh", 
-                     "8th Grade" = "eighth", 
-                     "10th Grade" = "tenth")),
+                   c("6th Grade" = "6", 
+                     "7th Grade" = "7", 
+                     "8th Grade" = "8", 
+                     "10th Grade" = "10")),
       
       br(),
-      # 
-      # checkboxInput("subject.check", "Test Subject:",
-      #               c("Reading" = "reading",
-      #                 "Math" = "math",
-      #                 "Writing" = "writing",
-      #                 "Science" = "science")),
-      # 
+
+      radioButtons("subject.check", "Test Subject:",
+                    c("Reading" = "reading",
+                      "Math" = "math",
+                      "Writing" = "writing",
+                      "Science" = "science")),
+
       br(),
       
       sliderInput("years.slider", "Years:",
@@ -32,7 +32,7 @@ ui <- fluidPage(
                   max = 2013,
                   value = 2013,
                   step = 1,
-                  format="####")
+                  sep = "")
     ),
     
     # Main panel
