@@ -1,11 +1,16 @@
 library(shiny)
+library(plotly)
+library(leaflet)
 
 ui <- fluidPage(
   #Title
   titlePanel("Title TBA"),
   
   br(),
-  
+  headerPanel(
+    leafletOutput("map")
+  ),
+  br(),
   # A two panel layout with sidebar and main panel
   sidebarLayout(
     # Sidebar
@@ -30,14 +35,15 @@ ui <- fluidPage(
                   min = 2010,
                   max = 2013,
                   value = 2013,
-                  step = 1)
+                  step = 1,
+                  format="####")
     ),
     
     # Main panel
     mainPanel(
       # Create tabs
       tabsetPanel(type = "tabs",
-                  tabPanel("Map", plotOutput("map", hover = "plot_hover")),
+               #   tabPanel("Map", leafletOutput("map")),
                   tabPanel("Revenue vs. Test Score"),
                   tabPanel("Data Table"),
                   tabPanel("Aggregated Test Data")
