@@ -1,4 +1,6 @@
 library(shiny)
+library(maptools)
+
 
 ui <- fluidPage(
   #Title
@@ -11,14 +13,14 @@ ui <- fluidPage(
     # Sidebar
     sidebarPanel(
       radioButtons("grades.button", "Grade of Interest:",
-                   c("6th Grade" = "sixth", 
-                     "7th Grade" = "seventh", 
-                     "8th Grade" = "eighth", 
-                     "10th Grade" = "tenth")),
+                   c("6th Grade" = "6", 
+                     "7th Grade" = "7", 
+                     "8th Grade" = "8", 
+                     "10th Grade" = "10")),
       
       br(),
       
-      checkboxInput("subject.check", "Test Subject:",
+      checkboxGroupInput("subject.check", "Test Subject:",
                     c("Reading" = "reading",
                       "Math" = "math",
                       "Writing" = "writing",
@@ -35,12 +37,13 @@ ui <- fluidPage(
     
     # Main panel
     mainPanel(
-      # Create tabs
+      #Create tabs
       tabsetPanel(type = "tabs",
                   tabPanel("Map"),
                   tabPanel("Revenue vs. Test Score"),
-                  tabPanel("Data Table"),
-                  tabPanel("Aggregated Test Data")
+                  tabPanel("Data Table", dataTableOutput('table')),
+                  tabPanel("Aggregated Test Data"),
+                  tabPanel("About", textOutput('about'))
       )
     )
   )
