@@ -5,11 +5,7 @@ library(leaflet)
 ui <- fluidPage(
   #Title
   titlePanel("Title TBA"),
-  
-  br(),
-  headerPanel(
-    leafletOutput("map")
-  ),
+
   br(),
   # A two panel layout with sidebar and main panel
   sidebarLayout(
@@ -42,6 +38,8 @@ ui <- fluidPage(
     # Main panel
     mainPanel(
       # Create tabs
+      leafletOutput("map"),
+      br(),
       tabsetPanel(type = "tabs",
                #   tabPanel("Map", leafletOutput("map")),
                   tabPanel("Revenue vs. Test Score"),
