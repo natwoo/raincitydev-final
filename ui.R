@@ -17,11 +17,11 @@ ui <- fluidPage(
                      "10th Grade" = "10"), selected = "6"),
       br(),
       
-      checkboxGroupInput("subject.check", "Test Subject:",
-                    c("Reading" = "reading",
-                      "Math" = "math",
-                      "Writing" = "writing",
-                      "Science" = "science"), selected = "reading"),
+      radioButtons("subject.check", "Test Subject:",
+                         c("Reading" = "reading",
+                           "Math" = "math",
+                           "Writing" = "writing",
+                           "Science" = "science"), selected = "reading"),
       
       br(),
       
@@ -37,7 +37,7 @@ ui <- fluidPage(
       # Create tabs
       tabsetPanel(type = "tabs",
                   tabPanel("Map"),
-                  tabPanel("Revenue vs. Test Score", plotOutput("plot")),
+                  tabPanel("Revenue vs. Test Score", textOutput("text"), plotOutput("plot1"), textOutput("text1")),
                   tabPanel("Data Table"),
                   tabPanel("Aggregated Test Data")
       )
