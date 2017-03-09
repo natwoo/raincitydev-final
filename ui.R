@@ -1,5 +1,8 @@
 library(shiny)
 
+revenue.data <- read.csv("data/washington_school_district_level_revenue.csv", stringsAsFactors = FALSE)
+districts <- revenue.data$district
+
 ui <- fluidPage(
   #Title
   titlePanel("Title TBA"),
@@ -18,11 +21,16 @@ ui <- fluidPage(
       
       br(),
       
-      checkboxInput("subject.check", "Test Subject:",
+      checkboxGroupInput("subject.check", "Test Subject:",
                     c("Reading" = "reading",
                       "Math" = "math",
                       "Writing" = "writing",
                       "Science" = "science")),
+      
+      br(),
+      
+      selectInput("school.district", "School Districts:",
+                  districts),
       
       br(),
       
